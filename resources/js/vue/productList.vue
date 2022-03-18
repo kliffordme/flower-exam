@@ -1,4 +1,5 @@
 <template>
+    <h4>PRODUCTS</h4>
     <div v-for="item in items" :key="item.id" class="products">
         <div class="item-adjust">
         <h4>Product</h4>

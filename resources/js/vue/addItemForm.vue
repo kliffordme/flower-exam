@@ -9,7 +9,7 @@
         <input type="number" v-model="item.quantity" />
         <label>Price</label>
         <input type="number" v-model="item.prices" />
-        <button @click="addProducts()">Save</button>
+        <button @click="addProducts()" class="button">Save</button>
     </div>
 </template>
 
@@ -55,5 +55,9 @@
     flex-direction: column;
     margin: auto;
     width: 40vw;
+}
+.button{
+    margin: 1rem 0;
+    cursor: pointer;
 }
 </style>

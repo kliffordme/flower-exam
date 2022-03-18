@@ -26,7 +26,7 @@
         </div>
         <div class="item-adjust">
         <h4>Description</h4>
-        <input v-model="edits.newDesc"/>
+        <input v-model="edits.newDesc" maxlength="60"/>
         </div>
         <div class="item-adjust">
         <h4>Quantity</h4>

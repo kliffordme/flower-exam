@@ -2,7 +2,7 @@
     <div class="addItem">
         <h4>Add a product:</h4>
         <label>Product name</label>
-        <input type="text" v-model="item.product_name" />
+        <input type="text" v-model="item.product_name" maxlength="60" />
         <label>description</label>
         <input type="text" v-model="item.product_description" />
         <label>quantity</label>

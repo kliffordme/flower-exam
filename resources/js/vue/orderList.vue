@@ -7,7 +7,7 @@
         </div>
         <div>
             <h4>Product</h4>
-            {{order.product.product_name}}
+            {{order.product?.product_name}}
         </div>
         <div>
             <h4>Price</h4>
